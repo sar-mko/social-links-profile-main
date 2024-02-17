@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main--container{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    padding: 40px;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+}
+.header-info{
+    padding: 14px 0;
+}
+img{
+    border-radius: 100%;
+    width: 94px;
+}
+h1{
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 8px;
+}
+h2{
+    color:  hsl(75, 94%, 57%);
+    font-weight: 500;
+    font-size: 13px;
+}
+p{
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+ ul {
+    width: 100%;
+}
+.links--list li{
+    background-color: hsl(0, 0%, 20%) ;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    padding: 13px;
+    list-style: none;
+    color: white;
+    margin: 11px 0;
+    font-size: 12px;
+}
+.links--list li:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.links--list a:hover{
+    color: black;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+/*footer*/
+.attribution { 
+    font-size: 11px;
+     text-align: center; 
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.attribution p{
+    padding: 0;
+}
+
+/* mobile designs */
+
+@media only screen and (max-width: 450px){
+    .content--wrapper{
+        width: 100%;
+    }
+    .main--container{
+        padding: 20px;
+        width: 77%;
+    }
+
+}
