@@ -74,20 +74,23 @@ a:link, a:visited{
 
 /*footer*/
 .attribution { 
-    font-size: 11px;
-     text-align: center; 
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     align-items: center;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%); 
+    font-size: 6px;
 }
 .attribution p{
     padding: 0;
+    color: white;
+    font-size: 6px;
+
 }
+
 
 /* mobile designs */
 
